@@ -24,7 +24,7 @@ except:
     print("Failed to access gpt2")
     exit()
 
-
+#hola
 #inicio de la conversacion usando el modelo GPT-2
 print("Hello :)")
 while True:
@@ -39,7 +39,7 @@ while True:
             #impresión de la respuesta
             if response:
                 print(" ")
-                print("Chatbot: ", response)
+                print("Chat: ", response)
                 print(" ")
             else:
                 print("Chatbot can't answer")
